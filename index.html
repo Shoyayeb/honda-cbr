@@ -39,13 +39,12 @@
     <!-- 
         header
      -->
-    <header class="homebg fontPoppins" id="home">
+    <header class="homebg text-white fontPoppins" id="home">
         <!-- 
             navbar
          -->
         <nav class="navbar navbar-expand-lg navbar-expand-md py-lg-5 px-lg-5">
             <div class="container-fluid px-lg-5">
-                
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -53,16 +52,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item pe-5">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item pe-5">
                             <a class="nav-link" href="#">Shop</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item pe-5">
                             <a class="nav-link" href="#">News</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item pe-5">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
@@ -70,6 +69,49 @@
                 </div>
             </div>
         </nav>
+        <div class="px-lg-5 d-lg-flex justify-content-center align-items-center pb-5">
+            <div class="px-lg-5">
+                <p class="fw-light fs-6 fst-normal mb-1">Computer-controlled digital transistorized with electronic advance
+                </p>
+                <h1 class="fw-bold display-4 fst-normal mb-4">Honda CBR 300R</h1>
+                <p class="fw-light fst-normal fs-6 lh-lg">In 2021 Honda CBR300R is
+                    your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town
+                    and
+                    on twisty back roads.</p>
+                    <!-- 
+                        button for modal
+                     -->
+                <button type="button" class="btn btnCustom text-white px-lg-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+            </div>
+            <div>
+                <img src="./images/header-bike.png" alt="">
+            </div>
+
+
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </header>
     <!-- 
