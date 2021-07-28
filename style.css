@@ -1,0 +1,80 @@
+/* 
+
+google fonts import
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Manrope:wght@300;400;500;700&family=Poppins:wght@300;400;500;700;900&display=swap');
+
+/*
+ universal
+ */
+/********* fonts
+  */
+.fontPoppins {
+    font-family: 'Poppins',
+        sans-serif !important;
+}
+
+.fontInter {
+    font-family: 'Inter',
+        sans-serif !important;
+}
+
+.fontManrope {
+    font-family: 'Manrope',
+        sans-serif !important;
+}
+
+/********** buttons
+ */
+.btnCustom {
+    background: #E76F51;
+    border-radius: 5px;
+}
+/********** special Text color
+  */
+.specialText {
+    color:  #E76F51;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ nav
+ */
+
+
+.nav-item a {
+    color: white;
+    font-weight: 500;
+}
+
+
+/* 
+home
+*/
+/* media querry used for only  */
+/* @media screen and (min-width:768px) {
+    header {
+        padding: 0 130px;
+    }
+} */
+.homebg {
+    background-color: #264653;
+    
+}
+.blackk {
+    /* color: black; */
+    /* background: #000; */
+    opacity: .5;
+    border: #E76F51 2px solid;
+}
