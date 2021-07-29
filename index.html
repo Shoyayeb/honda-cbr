@@ -54,16 +54,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 ">
                         <li class="nav-item pe-5">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link text-light" href="#">Shop</a>
+                            <a class="nav-link text-light" href="#shop">Shop</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link text-light" href="#">News</a>
+                            <a class="nav-link text-light" href="#news">News</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link text-light" href="#">Contact</a>
+                            <a class="nav-link text-light" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <button class="btn btnCustom border-0 btn-secondary py-2 px-4" data-bs-toggle="modal"
@@ -98,8 +98,7 @@
             </div>
         </section>
         <!-- Modal -->
-        <div class="modal fade text-dark" id="modal1" tabindex="-1" aria-labelledby="modal1Label"
-            aria-hidden="true">
+        <div class="modal fade text-dark" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -137,7 +136,7 @@
       -->
     <main class="fontPoppins">
         <!--featured bikes starts -->
-        <section>
+        <section id="shop">
             <div class="pt-5">
                 <h1 class="fw-bold text-center display-6 lh-sm">Fetured Bikes 2021</h1>
                 <h6 class="specialColor text-center lh-sm">Best bike collection</h6>
@@ -161,7 +160,7 @@
         <!-- 
             latest news section
          -->
-        <section class="container my-5">
+        <section id="news" class="container my-5">
             <div>
                 <h1 class="fw-bold text-center display-6 mb-4 lh-sm">Latest News</h1>
             </div>
@@ -293,7 +292,8 @@
                 <span class="darkColor">Frequently Asked</span> <span class="specialColor">Questions</span>
             </h1>
             <div class="container my-5">
-                <div class="d-sm-grid d-md-flex align-items-md-center row-cols-sm-1 justify-content-md-between gap-sm-4 gap-md-0">
+                <div
+                    class="d-sm-grid d-md-flex align-items-md-center row-cols-sm-1 justify-content-md-between gap-sm-4 gap-md-0">
                     <div class="col-sm-12 col-md-5 shadow-lg">
                         <img src="./images/faq.png" class="img-fluid" alt="">
                     </div>
@@ -392,88 +392,85 @@
         <!-- 
             extra----- recent blog post section
          -->
-         <section
-             class="shadow-lg container mb-5 d-flex justify-content-center align-items-center subscribeSection
+        <section id="contact" class="shadow-lg container mb-5 d-flex justify-content-center align-items-center subscribeSection
              specialBg">
-             <div class="text-center">
-                 <h1 id="touch">LET'S STAY IN TOUCH</h1>
-                 <p id="update">Get updates on specials sales and more.</p>
-                 <form class="d-flex" action="">
-                     <input type="text" class="form-control rounded-0" required placeholder="Enter Your email">
-                     <button type="submit" class="btn btnCustom rounded-0">Subscribe</button>
-                 </form>
-             </div>
-         </section>
-         <!-- 
+            <div class="text-center">
+                <h1 id="touch">LET'S STAY IN TOUCH</h1>
+                <p id="update">Get updates on specials sales and more.</p>
+                <form class="d-flex" action="">
+                    <input type="text" class="form-control rounded-0" required placeholder="Enter Your email">
+                    <button type="submit" class="btn btnCustom rounded-0">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!-- 
              extra----- login form on login button on navbar
           -->
-          <div>
-              <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                  aria-hidden="true">
-                  <div class="modal-dialog">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Login/Signup to buy your dream Motorbike</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                  aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                              <form>
-                                  <div class="mb-3">
-                                      <label for="name" class="col-form-label">Name</label>
-                                      <input type="text" class="form-control" id="recipient-name">
-                                  </div>
-                                  <div class="mb-3">
-                                      <label for="email" class="col-form-label">Email</label>
-                                      <input type="email" class="form-control" name="email" id="email">
-                                  </div>
-                                  <div class="mb-3">
-                                      <label for="password" class="col-form-label">Password</label>
-                                      <input type="password" class="form-control" name="password" id="password">
-                                  </div>
-                              </form>
-                          </div>
-                          <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btnCustom text-white">Login</button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- 
+        <div>
+            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Login/Signup to buy your dream Motorbike</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="col-form-label">Name</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="col-form-label">Password</label>
+                                    <input type="password" class="form-control" name="password" id="password">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btnCustom text-white">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 
               extra---- feedback section
            -->
-           <section class="container my-5">
-               <div class="row py-5 align-items-center">
-                   <div class="col-md-6">
-                       <h1 class="text-center fw-bold specialColor">FEEDBACK</h1>
-                       <p class="text-center fw-light pb-3">Got a question? <br>We would love to hear from you </p>
-                   </div>
-                   <div class="col-md-6">
-                       <div class="row g-3">
-                           <div class="col-12 col-md-6">
-                               <input type="text" class="form-control" placeholder="Your Name"
-                                   aria-label="Your name">
-                           </div>
-                           <div class="col-12 col-md-6">
-                               <input type="email" class="form-control" placeholder="Your Email" aria-label="Email">
-                           </div>
-                           <div class="form-floating">
-                               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                                   style="height: 100px"></textarea>
-                               <label for="floatingTextarea2">Feedback</label>
-                           </div>
-                           <div class="col-12">
-                               <button class="btn btn-primary" type="submit">Submit</button>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </section>
+        <section class="container my-5">
+            <div class="row py-5 align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-center fw-bold specialColor">FEEDBACK</h1>
+                    <p class="text-center fw-light pb-3">Got a question? <br>We would love to hear from you </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name" aria-label="Your name">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input type="email" class="form-control" placeholder="Your Email" aria-label="Email">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Feedback</label>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <p class="fw-lighter text-center fontManrope">© 2021 <a href="https://web.programming-hero.com" target="_blank" class="text-info text-decoration-none">ProgrammingHero</a> All rights reserved
+        <p class="fw-lighter text-center fontManrope">© 2021 <a href="https://web.programming-hero.com" target="_blank"
+                class="text-info text-decoration-none">ProgrammingHero</a> All rights reserved
         </p>
     </footer>
     <!--
