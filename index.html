@@ -40,9 +40,7 @@
         header
      -->
     <header class="homebg text-white fontPoppins" id="home">
-        <!-- 
-            navbar
-         -->
+        <!-- navbar -->
         <nav class="navbar navbar-expand-lg py-lg-5 px-lg-5">
             <div class="container-fluid py-4">
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -51,53 +49,56 @@
                     <i class="fas fa-bars text-white"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 ">
                         <li class="nav-item pe-5">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link text-light" href="#">Shop</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link text-light" href="#">News</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link text-light" href="#">Contact</a>
                         </li>
                     </ul>
                     <button class="btn btnCustom border-0 btn-secondary py-2 px-4">Login</button>
                 </div>
             </div>
         </nav>
-        <div class="d-lg-flex justify-content-center align-items-center pb-5 px-2 px-md-3 px-lg-5">
-            <div class="px-lg-5 w-100">
-                <p class="fw-light fs-6 fst-normal mb-1">Computer-controlled digital transistorized with electronic
-                    advance
-                </p>
-                <h1 class="fw-bold display-4 fst-normal mb-4">Honda CBR 300R</h1>
-                <p class="fw-light fst-normal fs-6 lh-lg">In 2021 Honda CBR300R is
-                    your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town
-                    and
-                    on twisty back roads.</p>
-                <!-- 
-                        button for modal
-                     -->
-                <button type="button" class="btn btnCustom text-white px-lg-5" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Purchase
-                </button>
+        <!-- home -->
+        <section id="home">
+            <div class="d-lg-flex justify-content-center align-items-center pb-5 px-2 px-md-3 px-lg-5">
+                <div class="px-lg-5 w-100">
+                    <p class="fw-light fs-6 fst-normal mb-1">Computer-controlled digital transistorized with electronic
+                        advance
+                    </p>
+                    <h1 class="fw-bold display-4 fst-normal mb-4">Honda CBR 300R</h1>
+                    <p class="fw-light fst-normal fs-6 lh-lg">In 2021 Honda CBR300R is
+                        your sweet spot between form and function. It’s narrow, light, and a total blast to ride around
+                        town
+                        and
+                        on twisty back roads.</p>
+                    <!--button for modal-->
+                    <button type="button" class="btn btnCustom text-white px-lg-5" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                </div>
+                <div class="w-100">
+                    <img class="container-fluid mt-4" src="./images/header-bike.png" alt="">
+                </div>
+
 
             </div>
-            <div class="w-100">
-                <img class="container-fluid mt-4" src="./images/header-bike.png" alt="">
-            </div>
-
-
-        </div>
+        </section>
 
 
         <!-- Modal -->
-        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -120,32 +121,28 @@
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputtext1" class="form-label">Name</label>
-                                <input type="text" class="form-control" required  id="exampleInputtext1">
+                                <input type="text" class="form-control" required id="exampleInputtext1">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn text-light container-fluid btnCustom">Submit</button>
                         </form>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
 
     </header>
-    <!-- 
-        header ends
-     -->
+    <!--header ends-->
     <!-- 
          main starts
       -->
     <main class="fontPoppins">
-        <!--
-             featured bikes starts
-         -->
+        <!--featured bikes starts -->
         <section>
             <div class="pt-5">
                 <h1 class="fw-bold text-center display-6 lh-sm">Fetured Bikes 2021</h1>
                 <h6 class="specialColor text-center lh-sm">Best bike collection</h6>
-                <div class="bestBike m-auto"></div>
+                <div class="bestBikeBorder m-auto"></div>
             </div>
 
             <div class="container p-4">
@@ -162,8 +159,6 @@
                 </div>
             </div>
         </section>
-
-
         <!-- 
             happy client section starts
          -->
@@ -346,19 +341,8 @@
             </div>
         </section>
     </main>
-    <!-- 
-        main ends
-     -->
-    <!-- 
-         footer starts
-    -->
-    <footer>
-
-    </footer>
+    <!-- main ends-->
     <!--
-         footer ends
-     -->
-    <!-- 
         bootstrap js
      -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

@@ -1,13 +1,7 @@
 /* 
-
 google fonts import
-
 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Manrope:wght@300;400;500;700&family=Poppins:wght@300;400;500;700;900&display=swap');
-
-/*
- universal
- */
 
 /* fonts
   */
@@ -33,7 +27,8 @@ google fonts import
     border-radius: 5px;
 }
 
-/********** special Text color
+/*
+Text color
   */
 .specialColor {
     color: #E76F51;
@@ -47,36 +42,23 @@ google fonts import
     color: #0D0925;
 }
 
-/***********img styles
-*/
-.grayscale {
-    filter: grayscale(100%);
-}
-
 /* 
- nav
- */
-
-
-.nav-item a {
-    color: white;
-    font-weight: 500;
-}
-
-
-/* 
-home
+home section background
 */
-
 .homebg {
     background-color: #264653;
-
 }
 /* 
-featured bike section
+featured bike border on middle
 */
 .bestBikeBorder {
     border: 1px solid #E76F51;
     border-radius: 1px;
     width: 58px;
+}
+/* 
+featured bike grayscale color
+*/
+.grayscale {
+    filter: grayscale(100%);
 }
