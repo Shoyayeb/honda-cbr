@@ -27,6 +27,11 @@ google fonts import
     border-radius: 5px;
 }
 
+.outlineCustom {
+    border: #E76F51 1px solid;
+    color: #E76F51;
+}
+
 /*
 Text color
   */
