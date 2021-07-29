@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Honda Powersports - Motorcycles, ATVs, Scooters, SxS</title>
     <!-- 
         bootstrap css
      -->
@@ -69,7 +69,7 @@
                 </div>
             </div>
         </nav>
-        <div class="d-lg-flex justify-content-center align-items-center pb-5 px-5">
+        <div class="d-lg-flex justify-content-center align-items-center pb-5 px-2 px-md-3 px-lg-5">
             <div class="px-lg-5 w-100">
                 <p class="fw-light fs-6 fst-normal mb-1">Computer-controlled digital transistorized with electronic
                     advance
@@ -97,20 +97,35 @@
 
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title text-center m-auto" id="exampleModalLabel">Sorry...</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        ...
+                    <div class="modal-body text-center">
+                        <i class="far fa-frown display-5"></i>
+                        <h4 class="text-secondary">We are sorry to say but this product is not available right now.</h4>
+                        <p>Please fill up the form to get emails when this product is available</p>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="modal-footer m-auto">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputtext1" class="form-label">Name</label>
+                                <input type="text" class="form-control" required  id="exampleInputtext1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -126,28 +141,29 @@
         <!--
              featured bikes starts
          -->
-         <section class="">
-             <div class="pt-5">
-            <h1 class="fw-bold text-center display-6 lh-sm darkColor">Fetured Bikes 2021</h1>
-            <h6 class="specialColor text-center lh-sm">Best bike collection</h6>
-            <div class="bestBike m-auto"></div>
-        </div>
+        <section>
+            <div class="pt-5">
+                <h1 class="fw-bold text-center display-6 lh-sm">Fetured Bikes 2021</h1>
+                <h6 class="specialColor text-center lh-sm">Best bike collection</h6>
+                <div class="bestBike m-auto"></div>
+            </div>
 
-        <div class="container my-5">
-            <div class="col-lg-12 row py-5">
-                <div class="col-lg-4">
-                    <img src="./images/feature-bike.jpg" class="img-fluid grayscale " alt="">
-                </div>
-                <div class="col-lg-4">
-                    <img src="./images/feature-bike.jpg" class="img-fluid " alt="">
-                </div>
-                <div class="col-lg-4">
-                    <img src="./images/feature-bike.jpg" class="img-fluid grayscale " alt="">
+            <div class="container p-4">
+                <div class="col-lg-12 row py-5 gap-lg-0 gap-sm-5">
+                    <div class="col-lg-4  pb-3">
+                        <img src="./images/feature-bike.jpg" class="img-fluid grayscale " alt="">
+                    </div>
+                    <div class="col-lg-4  pb-3">
+                        <img src="./images/feature-bike.jpg" class="img-fluid " alt="">
+                    </div>
+                    <div class="col-lg-4  pb-3">
+                        <img src="./images/feature-bike.jpg" class="img-fluid grayscale " alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-         </section>
-        
+        </section>
+
+
         <!-- 
             happy client section starts
          -->
@@ -161,7 +177,8 @@
                     <div class="card border-0 shadow-lg rounded-3">
                         <img src="./images/user-1.png" class="card-img-top rounded-circle m-auto w-50 py-5" alt="...">
                         <div class="card-body">
-                            <p class="lightColor card-text px-3 text-center">To be very honest, this website introduced me to the
+                            <p class="lightColor card-text px-3 text-center">To be very honest, this website introduced
+                                me to the
                                 real
                                 digital world. I had not a little bit of idea about Motobike but after browsing this
                                 website I'm gonna buy one myself</p>
@@ -182,7 +199,8 @@
                     <div class="card border-0 shadow-lg rounded-3">
                         <img src="./images/user-2.png" class="card-img-top rounded-circle m-auto w-50 py-5" alt="...">
                         <div class="card-body">
-                            <p class="lightColor card-text px-3 text-center">This website has found out my passion, taught me about
+                            <p class="lightColor card-text px-3 text-center">This website has found out my passion,
+                                taught me about
                                 life,
                                 and has given me an opportunity to meet with awesome mentors and mates. I am so
                                 grateful to this company. Thanks. ❤</p>
@@ -242,19 +260,19 @@
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                         aria-controls="panelsStayOpen-collapseOne">
-                                        Accordion Item #1
+                                        What are the most important things I should
+                                        know about riding a bike?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="panelsStayOpen-headingOne">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. <strong>Get in the mindset of “driving” your bike—not just
+                                            “riding”
+                                            your bike</strong>. This will help you be a more focused and legally
+                                        compliant bike
+                                        rider.
                                     </div>
                                 </div>
                             </div>
@@ -263,19 +281,19 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseTwo">
-                                        Accordion Item #2
+                                        How can I tell if my helmet is old and I need a
+                                        new one?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                                     aria-labelledby="panelsStayOpen-headingTwo">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        Bear in mind that if the helmet did its job most people would tell you that they
+                                        did not even hit their head, or did not hit their head that hard. And the thin
+                                        shells on most helmets now tend to hide any dents in the foam. But <strong>if
+                                            you can
+                                            see marks on the shell or measure any foam crush at all, replace the
+                                            helmet.</strong>
                                     </div>
                                 </div>
                             </div>
@@ -284,30 +302,48 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseThree">
-                                        Accordion Item #3
+                                        My bike has been in storage is it safe to ride?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="panelsStayOpen-headingThree">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        Basically, <strong> if the
+                                            tires are sound and the steering is good and the brakes are good and there's
+                                            no
+                                            massive rust anywhere,</strong> there are likely no major safety issues.
+                                        Dependability
+                                        then becomes your concern, since you will be commuting, and there it's mainly
+                                        the condition of the tires and how well the shifters work.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapsefour">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingfour">
+                                    <div class="accordion-body">
+                                        Use your eyes AND ears. Watch out for potholes, cracks, wet leaves, storm
+                                        grates, railroad tracks, or anything that could make you lose control of your
+                                        bike. You need your ears to hear traffic and avoid dangerous situations; don’t
+                                        wear a headset when you ride. <strong>A bicycle is a vehicle and you’re a
+                                            driver. When you ride in the street, obey all traffic signs, signals, and
+                                            lane markings.</strong>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    
+
                 </div>
             </div>
-
-            
         </section>
     </main>
     <!-- 
