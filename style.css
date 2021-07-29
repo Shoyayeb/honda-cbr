@@ -33,20 +33,16 @@ google fonts import
 }
 /********** special Text color
   */
-.specialText {
+.specialColor {
     color:  #E76F51;
 }
+.lightColor {
+    color:#252B42;
+}
 
-
-
-
-
-
-
-
-
-
-
+.darkColor {
+    color: #0D0925;
+}
 
 /* 
  nav
@@ -62,19 +58,21 @@ google fonts import
 /* 
 home
 */
-/* media querry used for only  */
-/* @media screen and (min-width:768px) {
-    header {
-        padding: 0 130px;
-    }
-} */
+
 .homebg {
     background-color: #264653;
     
 }
-.blackk {
-    /* color: black; */
-    /* background: #000; */
-    opacity: .5;
-    border: #E76F51 2px solid;
+
+
+
+
+.bestBike {
+    border: 1px solid #E76F51;
+    border-radius: 1px;
+    width: 58px;
+}
+
+.grayscale {
+    filter: grayscale(100%);
 }

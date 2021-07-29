@@ -43,8 +43,8 @@
         <!-- 
             navbar
          -->
-        <nav class="navbar navbar-expand-lg navbar-expand-md py-lg-5 px-lg-5">
-            <div class="container-fluid px-lg-5">
+        <nav class="navbar navbar-expand-lg py-lg-5 px-lg-5">
+            <div class="container-fluid py-4">
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -69,25 +69,27 @@
                 </div>
             </div>
         </nav>
-        <div class="px-lg-5 d-lg-flex justify-content-center align-items-center pb-5">
-            <div class="px-lg-5">
-                <p class="fw-light fs-6 fst-normal mb-1">Computer-controlled digital transistorized with electronic advance
+        <div class="d-lg-flex justify-content-center align-items-center pb-5 px-5">
+            <div class="px-lg-5 w-100">
+                <p class="fw-light fs-6 fst-normal mb-1">Computer-controlled digital transistorized with electronic
+                    advance
                 </p>
                 <h1 class="fw-bold display-4 fst-normal mb-4">Honda CBR 300R</h1>
                 <p class="fw-light fst-normal fs-6 lh-lg">In 2021 Honda CBR300R is
                     your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town
                     and
                     on twisty back roads.</p>
-                    <!-- 
+                <!-- 
                         button for modal
                      -->
-                <button type="button" class="btn btnCustom text-white px-lg-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btnCustom text-white px-lg-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
                     Purchase
                 </button>
 
             </div>
-            <div>
-                <img src="./images/header-bike.png" alt="">
+            <div class="w-100">
+                <img class="container-fluid mt-4" src="./images/header-bike.png" alt="">
             </div>
 
 
@@ -120,9 +122,113 @@
     <!-- 
          main starts
       -->
-    <main>
+    <main class="fontPoppins">
+        <!--
+             featured bikes starts
+         -->
+        <div class="pt-5">
+            <h1 class="fw-bold text-center display-6 lh-sm darkColor">Fetured Bikes 2021</h1>
+            <h6 class="specialColor text-center lh-sm">Best bike collection</h6>
+            <div class="bestBike m-auto"></div>
+        </div>
 
-
+        <div class="container my-5">
+            <div class="col-lg-12 row py-5">
+                <div class="col-lg-4">
+                    <img src="./images/feature-bike.jpg" class="img-fluid grayscale " alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="./images/feature-bike.jpg" class="img-fluid " alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="./images/feature-bike.jpg" class="img-fluid grayscale " alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 
+            happy client section starts
+         -->
+        <section class="container my-5 darkColor">
+            <div class="mb-5">
+                <h1 class="fw-bold text-center display-6 lh-sm"><span>Happy</span> <span class="specialColor">Client
+                        Says</span></h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3">
+                        <img src="./images/user-1.png" class="card-img-top rounded-circle m-auto w-50 py-5" alt="...">
+                        <div class="card-body">
+                            <p class="lightColor card-text px-3 text-center">To be very honest, this website introduced me to the
+                                real
+                                digital world. I had not a little bit of idea about Motobike but after browsing this
+                                website I'm gonna buy one myself</p>
+                        </div>
+                        <div class="d-flex m-auto specialColor">
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star not-filled"></i></div>
+                            <span>4.5</span>
+                        </div>
+                        <a href="#" class="text-decoration-none text-info m-auto my-3">Regina Miles</a>
+                        <p class="text-center fw-bold pb-4">Doctor</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3">
+                        <img src="./images/user-2.png" class="card-img-top rounded-circle m-auto w-50 py-5" alt="...">
+                        <div class="card-body">
+                            <p class="lightColor card-text px-3 text-center">This website has found out my passion, taught me about
+                                life,
+                                and has given me an opportunity to meet with awesome mentors and mates. I am so
+                                grateful to this company. Thanks. ❤</p>
+                        </div>
+                        <div class="d-flex m-auto specialColor">
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star not-filled"></i></div>
+                            <span>4.5</span>
+                        </div>
+                        <a href="#" class="text-decoration-none text-info m-auto my-3">Regina Miles</a>
+                        <p class="text-center fw-bold pb-4">Banker</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg rounded-3">
+                        <img src="./images/editedUser-3.png" class="card-img-top rounded-circle m-auto w-50 py-5"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="lightColor card-text px-3 text-center">This website
+                                is boosting my confidence to another level. I was a lazy person but after this
+                                course, I find myself as a hard work person and I believe I can do anything I want.
+                            </p>
+                        </div>
+                        <div class="d-flex m-auto specialColor">
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star filled"></i></div>
+                            <div class=""><i class="fas fa-star not-filled"></i></div>
+                            <span>4.5</span>
+                        </div>
+                        <a href="#" class="text-decoration-none text-info m-auto my-3">Regina Miles</a>
+                        <p class="text-center fw-bold pb-4">Programmer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 
+            faq section
+         -->
+        <section class="darkColor my-5">
+            <h1 class="text-center ">
+                <span class="darkColor">Frequently Asked</span> <span class="specialColor">Questions</span>
+            </h1>
+            
+        </section>
     </main>
     <!-- 
         main ends
